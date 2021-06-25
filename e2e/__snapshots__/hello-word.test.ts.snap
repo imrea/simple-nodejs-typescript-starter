@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`hello world returns Hello World! 1`] = `
+Object {
+  "message": "Hello World!",
+}
+`;

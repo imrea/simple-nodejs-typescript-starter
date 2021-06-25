@@ -1,0 +1,6 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+yarn run pretty
+yarn run lint
+# yarn run test
