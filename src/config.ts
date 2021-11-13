@@ -1,5 +1,5 @@
-export const isProduction = process.env.NODE_ENV === 'production';
-export const isDevelopment = process.env.NODE_ENV === 'development';
-export const isTest = process.env.NODE_ENV === 'test';
+export const PROD = process.env.NODE_ENV === 'production';
+export const DEV = process.env.NODE_ENV === 'development';
+export const TEST = process.env.NODE_ENV === 'test';
 
 export const PORT = Number(process.env.PORT) || 3000;
